@@ -1,0 +1,10 @@
+{
+  "build": {
+    "type": "docker",
+    "dockerfile": "./frontend/Dockerfile.build"
+  },
+  "deploy": {
+    "type": "static",
+    "root": "dist"
+  }
+}
