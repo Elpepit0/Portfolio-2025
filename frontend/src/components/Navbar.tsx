@@ -3,6 +3,7 @@ import { motion, useScroll } from 'framer-motion';
 import { useCursor } from '../context/CursorContext';
 import { Menu, X } from 'lucide-react'; // Import icons
 import '../index.css';
+import logo from '../assets/ChatGPT Image 21 sept. 2025, 13_07_51.png';
 
 const Navbar: React.FC = () => {
   const { setCursorVariant } = useCursor();
@@ -15,7 +16,7 @@ const Navbar: React.FC = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
 
-      const sections = ['home', 'about', 'projects', 'contact'];
+      const sections = ['home', 'about', 'projects', 'contact', 'mentions'];
       const scrollPosition = window.scrollY + window.innerHeight / 2;
 
       for (const sectionId of sections) {
@@ -53,9 +54,9 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center px-6">
         <div className="flex items-center gap-2">
           <motion.img
-                    src="https://avatars.githubusercontent.com/u/9919?s=200&v=4"
+                    src={logo}
                     alt="Yohan"
-                    className="w-8 h-8 rounded-full bg-gradient-to-tr from-blue-500 to-purple-600 flex items-center justify-center shadow-md"
+                    className="w-8 h-8 flex items-center justify-center shadow-md"
                     initial={{ opacity: 0, scale: 0.7 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
@@ -89,6 +90,7 @@ const Navbar: React.FC = () => {
             { href: '#about', label: 'À Propos', id: 'about' },
             { href: '#projects', label: 'Projets', id: 'projects' },
             { href: '#contact', label: 'Contact', id: 'contact' },
+            { href: '#mentions', label: 'Mentions', id: 'mentions' },
           ].map(({ href, label, id }) => (
             <li key={href}>
               <a
@@ -120,6 +122,7 @@ const Navbar: React.FC = () => {
               { href: '#about', label: 'À Propos', id: 'about' },
               { href: '#projects', label: 'Projets', id: 'projects' },
               { href: '#contact', label: 'Contact', id: 'contact' },
+              { href: '#mentions', label: 'Mentions', id: 'mentions' },
             ].map(({ href, label, id }) => (
               <li key={href}>
                 <a

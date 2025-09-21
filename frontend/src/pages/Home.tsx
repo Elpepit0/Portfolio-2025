@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { useCursor } from '../context/CursorContext';
 import '../index.css';
+import logo from '../assets/ChatGPT Image 21 sept. 2025, 13_07_51.png';
 
 const socialLinks = [
   {
@@ -34,9 +35,9 @@ const Home: React.FC = () => {
 
       <div className="relative z-10 flex flex-col items-center">
         <motion.img
-          src="https://avatars.githubusercontent.com/u/9919?s=200&v=4"
+          src={logo}
           alt="Yohan"
-          className="rounded-full w-40 h-40 object-cover mb-8 shadow-2xl border-4 border-blue-500"
+          className=" w-40 h-40 object-cover mb-8 shadow-2xl"
           initial={{ opacity: 0, scale: 0.7 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
