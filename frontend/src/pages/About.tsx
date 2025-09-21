@@ -35,8 +35,13 @@ const timelineEvents = [
   },
   {
     year: "2025",
-    title: "Second Stage chez Clever Cloud (Seconde)",
+    title: "Second Stage chez Clever Cloud (2nde)",
     description: "Approfondissement des connaissances en React, Python, apprentissage de Flask, PostgreSQL, MultiInstance.",
+  },
+  {
+    year: "2027",
+    title: "Baccalauréat Soon...",
+    description: "Soon...",
   },
 ];
 
