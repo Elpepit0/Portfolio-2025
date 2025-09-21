@@ -5,6 +5,15 @@
     <link rel="icon" type="image/svg+xml" href="/9919.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yohan Boiroux</title>
+    <script>
+      // Set the --vh custom property
+      function setViewportHeight() {
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      }
+      setViewportHeight();
+      window.addEventListener('resize', setViewportHeight);
+    </script>
   </head>
   <body>
     <div id="root"></div>

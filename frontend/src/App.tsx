@@ -8,7 +8,6 @@ import Navbar from './components/Navbar';
 import CustomCursor from './components/CustomCursor';
 import Footer from './components/Footer';
 
-
 function App(): React.ReactElement {
   return (
     <Router>
