@@ -53,7 +53,7 @@ const Contact: React.FC = () => {
         >
           Contactez-moi
         </motion.h1>
-        <p className="text-center text-lg text-gray-300 mb-8">
+        <p className="text-center text-base sm:text-lg text-gray-300 mb-8">
           Une question, une proposition ou juste envie de dire bonjour ? Remplissez le formulaire ci-dessous.
         </p>
         <motion.form

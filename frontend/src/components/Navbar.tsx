@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
                   />
           <a
             href="#home"
-            className="text-white text-2xl font-extrabold tracking-tight hover:text-purple-300 transition-colors"
+            className="text-white text-xl md:text-2xl font-extrabold tracking-tight hover:text-purple-300 transition-colors"
             onMouseEnter={() => setCursorVariant('button')}
             onMouseLeave={() => setCursorVariant('default')}
           >

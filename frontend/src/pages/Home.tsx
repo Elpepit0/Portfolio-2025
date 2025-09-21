@@ -51,7 +51,7 @@ const Home: React.FC = () => {
           Yohan Boiroux
         </motion.h1>
         <motion.span
-          className="block text-2xl md:text-4xl font-medium mt-4 text-center text-gray-200"
+          className="block text-xl sm:text-2xl md:text-4xl font-medium mt-4 text-center text-gray-200"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.7 }}

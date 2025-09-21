@@ -99,7 +99,7 @@ const About: React.FC = () => {
             <div className={`w-full md:w-1/2 flex ${index % 2 === 0 ? 'justify-end pr-8' : 'justify-start pl-8'}`}>
               <div className="relative group bg-gradient-to-br from-[#232946] to-[#181c2b] p-6 rounded-2xl shadow-2xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 overflow-hidden">
               {/* Accent circle */}
-              <span className="absolute -left-6 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-gradient-to-br from-cyan-400 to-purple-600 border-4 border-[#181c2b] shadow-lg group-hover:scale-110 transition-transform duration-300"></span>
+              <span className="absolute -left-9 md:-left-6 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-gradient-to-br from-cyan-400 to-purple-600 border-4 border-[#181c2b] shadow-lg group-hover:scale-110 transition-transform duration-300"></span>
               {/* Glow effect */}
               <span className="absolute inset-0 bg-cyan-400/10 blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></span>
               <h3 className="text-xl md:text-2xl font-bold text-cyan-300 mb-1 drop-shadow">{event.year} <span className="text-gray-400 font-normal">— {event.title}</span></h3>
