@@ -1,5 +1,6 @@
 import React from 'react';
 import { Linkedin, Github, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const socialLinks = [
   {
@@ -41,7 +42,11 @@ const Footer: React.FC = () => {
         </a>
         ))}
       </div>
-      <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} Yohan Boiroux. Tous droits réservés.</p>
+      <div className="text-sm text-gray-400 flex space-x-4">
+        <Link to="/privacy-policy" className="hover:text-white">Politique de Confidentialité</Link>
+        <Link to="/legal-mentions" className="hover:text-white">Mentions Légales</Link>
+      </div>
+      <p className="text-sm text-gray-400 mt-4">&copy; {new Date().getFullYear()} Yohan Boiroux. Tous droits réservés.</p>
       </div>
     </footer>
   );
