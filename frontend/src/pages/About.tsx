@@ -24,7 +24,7 @@ const timelineEvents = [
     description: "Découverte du développement web et des premières lignes de code.",
   },
   {
-    year: "2023",
+    year: "2024",
     title: "Premier stage chez Clever Cloud (3ème)",
     description: "Acquisition de compétences solides en HTML, CSS, JavaScript et React.",
   },
