@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaReact } from 'react-icons/fa';
-import { SiTailwindcss, SiTypescript, SiFlask, SiHtml5, SiJavascript, SiCss3, SiPostgresql} from 'react-icons/si';
+import { SiTailwindcss, SiTypescript, SiFlask, SiHtml5, SiJavascript, SiCss3, SiSqlite} from 'react-icons/si';
 import { AiOutlinePython } from 'react-icons/ai';
 import '../index.css';
 
@@ -11,7 +11,7 @@ const skills = [
   { icon: <SiFlask className=" text-white" />, label: 'Flask.py', border: 'hover:border-white' },
   { icon: <SiHtml5 className=" text-orange-500" />, label: 'HTML', border: 'hover:border-orange-500' },
   { icon: <SiCss3 className=" text-blue-400" />, label: 'CSS', border : 'hover:border-blue-400' },
-  { icon: <SiPostgresql className=" text-gray-400" />, label: 'PostgreSQL', border: 'hover:border-white' },
+  { icon: <SiSqlite className=" text-gray-400" />, label: 'SqLite', border: 'hover:border-white' },
   { icon: <SiTypescript className=" text-blue-400" />, label: 'TypeScript', border: 'hover:border-blue-400' },
   { icon: <SiJavascript className=" text-yellow-400" />, label: 'JavaScript', border: 'hover:border-yellow-400' },
   { icon: <AiOutlinePython className=" text-gray-400" />,label: 'Python', border: 'hover:border-white'}
